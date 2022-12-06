@@ -20,8 +20,19 @@ return require('packer').startup({
         	requires = "kyazdani42/nvim-web-devicons",
     	} -- 文件🌲
 		use 'luochen1990/rainbow' -- 🌈括号
+		--lsp
 		use "williamboman/nvim-lsp-installer"
 		use "neovim/nvim-lspconfig"
+		--代码补全
+		use 'hrsh7th/cmp-nvim-lsp'
+		use 'hrsh7th/cmp-buffer'
+		use 'hrsh7th/cmp-path'
+		use 'hrsh7th/cmp-cmdline'
+		use 'hrsh7th/nvim-cmp'
+		use 'hrsh7th/cmp-vsnip'
+		use 'hrsh7th/vim-vsnip'
+		use 'rafamadriz/friendly-snippets'
+		use 'onsails/lspkind-nvim'
 	end,
 	config = {
 		max_jobs = 16,
@@ -32,4 +43,3 @@ return require('packer').startup({
 		}
 	}
 })
-
