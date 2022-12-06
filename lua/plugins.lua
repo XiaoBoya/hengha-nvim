@@ -52,6 +52,8 @@ return require('packer').startup({
 		use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}
 		-- 主题
 		use {"morhetz/gruvbox"}
+		-- 内置终端
+		use {"akinsho/toggleterm.nvim", tag = 'v2.*'}
 	end,
 	config = {
 		max_jobs = 16,
