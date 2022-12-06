@@ -18,3 +18,6 @@ set cursorline
 
 " 不需要备份文件
 set nobackup
+
+colorscheme gruvbox
+

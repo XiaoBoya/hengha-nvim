@@ -35,6 +35,18 @@ return require('packer').startup({
 		use 'onsails/lspkind-nvim'
 		-- indent缩进线
 		use "lukas-reineke/indent-blankline.nvim"
+		-- 文件搜索 预览 等
+		use {
+			"nvim-telescope/telescope.nvim",
+    		requires = {
+      			"nvim-lua/plenary.nvim",
+      			"kyazdani42/nvim-web-devicons"
+    		}
+		}
+		-- 加速文件搜索速度,如果安装失败需要到插件目录执行make命令手动编译
+		use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}
+		-- 主题
+		use {"morhetz/gruvbox"}
 	end,
 	config = {
 		max_jobs = 16,
