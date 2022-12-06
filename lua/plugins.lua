@@ -33,6 +33,8 @@ return require('packer').startup({
 		use 'hrsh7th/vim-vsnip'
 		use 'rafamadriz/friendly-snippets'
 		use 'onsails/lspkind-nvim'
+		-- indent缩进线
+		use "lukas-reineke/indent-blankline.nvim"
 	end,
 	config = {
 		max_jobs = 16,
