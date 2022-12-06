@@ -33,6 +33,11 @@ return require('packer').startup({
 		use 'hrsh7th/vim-vsnip'
 		use 'rafamadriz/friendly-snippets'
 		use 'onsails/lspkind-nvim'
+		-- 语法高亮
+		use {
+        	'nvim-treesitter/nvim-treesitter',
+        	run = ':TSUpdate'
+    	}
 		-- indent缩进线
 		use "lukas-reineke/indent-blankline.nvim"
 		-- 文件搜索 预览 等
