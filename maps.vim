@@ -13,3 +13,18 @@ noremap <leader>t :NvimTreeToggle<CR>
 nmap ss :split<Return><C-w>w
 nmap sv :vsplit<Return><C-w>w
 
+map sh <C-w>h
+map sk <C-w>k
+map sj <C-w>j
+map sl <C-w>l
+
+" 插入模式移动光标
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+inoremap <C-d> <Delete>
+
+noremap <C-s> :w<CR>
+nmap <C-a> gg<S-v>G
+
