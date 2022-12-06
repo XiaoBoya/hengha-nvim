@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+    "Lua.workspace.library": [
+        "/Users/raymond/.config/nvim",
+        "/Users/raymond/.local/share/nvim/site",
+        "/Users/raymond/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+        "/Users/raymond/.local/share/nvim/site/pack/packer/start/defx.nvim",
+        "/Users/raymond/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+        "/Users/raymond/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
+        "/Users/raymond/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+        "/Users/raymond/.local/share/nvim/site/pack/packer/start/packer.nvim",
+        "/Users/raymond/.local/share/nvim/site/pack/packer/start/vim-choosewin",
+        "/Users/raymond/nvim-macos/share/nvim/runtime",
+        "/Users/raymond/nvim-macos/lib/nvim",
+        "/Users/raymond/.config/nvim/after",
+        "${3rd}/luassert/library"
+    ]
+}
