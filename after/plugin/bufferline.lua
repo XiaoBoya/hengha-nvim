@@ -91,6 +91,8 @@ bufferline.setup {
 --按键映射
 --nnoremap <silent> gb :BufferLinePick<CR>
 vim.api.nvim_set_keymap("n", "gb", "<Cmd>BufferLinePick<CR>", {noremap = true, silent = true})
+--关闭当前buffer，并打开上一个buffer
+vim.api.nvim_set_keymap("n", "<leader>c", "<Cmd>bp|bd #<CR>", {noremap = true, silent = true})
 --切换buffer
 vim.api.nvim_set_keymap("n", "<leader>1", "<Cmd>BufferLineGoToBuffer 1<CR>", {noremap = true, silent = true})
 vim.api.nvim_set_keymap("n", "<leader>2", "<Cmd>BufferLineGoToBuffer 2<CR>", {noremap = true, silent = true})
