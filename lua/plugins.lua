@@ -52,6 +52,10 @@ return require('packer').startup({
 		use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}
 		-- 主题
 		use {"morhetz/gruvbox"}
+		use {"glepnir/zephyr-nvim"}
+		use {"altercation/vim-colors-solarized"}
+		use {"folke/tokyonight.nvim"}
+		use {"joshdick/onedark.vim"}
 		-- 内置终端
 		use {"akinsho/toggleterm.nvim", tag = 'v2.*'}
 	end,
