@@ -14,12 +14,13 @@ set shiftwidth=4
 set cursorline
 
 " 按tab显示菜单
-" set wildmenu
+set wildmenu
 
 " 不需要备份文件
 set nobackup
 
 set background=dark
-colorscheme zephyr
-" colorscheme onedark
-
+" colorscheme zephyr
+colorscheme onedark
+highlight Normal guibg=None ctermbg=none
+" highlight NonText guibg=None ctermbg=None

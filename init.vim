@@ -10,5 +10,5 @@ runtime ./maps.vim
 source ~/.config/nvim/after/plugin/rainbow.rc.vim
 
 " 启动命令
-autocmd VimEnter * NvimTreeToggle
+" autocmd VimEnter * NvimTreeToggle
 

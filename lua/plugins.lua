@@ -58,6 +58,8 @@ return require('packer').startup({
 		use {"joshdick/onedark.vim"}
 		-- 内置终端
 		use {"akinsho/toggleterm.nvim", tag = 'v2.*'}
+		-- 项目管理
+		-- use {"ahmedkhalf/project.nvim"}
 	end,
 	config = {
 		max_jobs = 16,
